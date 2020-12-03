@@ -1,0 +1,48 @@
+@import "src/style/base/variables";
+@import "src/style/base/mixins";
+
+.form-section {
+    background: url('~/static/index2/contract_bg.png') no-repeat;
+    min-height: 400px;
+    .inner {
+        width: 1200px;
+        margin: 0 auto;
+        .inner-header {
+            padding-top: 50px;
+            text-align: center;
+            font-size: 35px;
+            color: #fff;
+        }
+        .inner-step {
+            height: 105px;
+            background: url('~/static/contract.svg') no-repeat;
+            background-size: auto;
+            background-position: center;
+            margin-top: 30px;
+        }
+        .demo-form-inline {
+            margin-top: 40px;
+            text-align: center;
+            .input-item {
+                width: 260px;
+                height: 40px;
+            }
+            .input-item-btn {
+                height: 40px;
+                color: #fff;
+                background: rgba(255, 255, 255, 0.2);
+                border: 1px solid rgba(255, 255, 255, 0.2);
+                &:hover {
+                    border: 1px solid rgba(255, 255, 255, 0.6);
+                }
+            }
+        }
+        .inner-hotline {
+            font-size: 22px;
+            color: #fff;
+            text-align: center;
+            margin-top: 20px;
+        }
+    }
+    
+}

@@ -1,0 +1,152 @@
+@import "src/style/base/variables";
+@import "src/style/base/mixins";
+
+.banner-layout {
+    height: 484px;
+    background: url('~/static/market/banner_bg.png') center no-repeat;
+    .banner-inner {
+        width: 1200px;
+        margin: 0 auto;
+        color: #fff;
+        padding-top: 157px;
+        h2 {
+            font-size: 52px;
+            color: #fff;
+            text-align: center;
+            margin: 0;
+        }
+        p {
+            font-size: 25px;
+            margin-top: 30px;
+            text-align: center;
+            letter-spacing: 20px;
+        }
+    }
+}
+
+.parter-layout {
+    height: 464px;
+    background: #fff;
+    .parter-inner {
+        width: 1200px;
+        margin: 0 auto;
+        color: #fff;
+        padding-top: 59px;
+        h2 {
+            font-size: 30px;
+            color: #333238;
+            text-align: center;
+            margin: 0;
+            padding-top: 10px;
+            font-weight: normal;
+        }
+        .core-item {
+            display: flex;
+            .card {
+                flex: 1;
+                text-align: center;
+                padding-top: 55px;
+                .thumb {
+                    width: 98px;
+                    height: 98px;
+                    overflow: hidden;
+                    margin: 0 auto 0;
+                    background-size: contain;
+                    &.thumb1 {
+                        background: url('~/static/market/icon1.png') center no-repeat;
+                    }
+                    &.thumb2 {
+                        background: url('~/static/market/icon2.png') center no-repeat;
+                    }
+                    &.thumb3 {
+                        background: url('~/static/market/icon3.png') center no-repeat;
+                    }
+                }
+                h2 {
+                    color: #0F092E;
+                    font-size: 24px;
+                }
+                p {
+                    font-size: 14px;
+                    color: #0F092E;
+                    line-height: 18px;
+                }
+            }
+        }
+    }
+}
+
+.join-layout {
+    height: 907px;
+    background: #F8F9FA;
+    .join-inner {
+        width: 1200px;
+        margin: 0 auto;
+        padding-top: 87px;
+        h2 {
+            font-size: 38px;
+            color: #0F092E;
+            text-align: center;
+            margin: 0;
+            font-weight: normal;
+        }
+        .content {
+            padding-top: 55px;
+            .core-item {
+                display: flex;
+                justify-content: space-between;
+                .card {
+                    width: 594px;
+                    height: 292px;
+                    position: relative;
+                    margin-bottom: 12px;
+                    img {
+                        display: block;
+                        width: 100%;
+                        height: 100%;
+                    }
+                    .mask {
+                        position: absolute;
+                        bottom: 0;
+                        left: 0;
+                        padding-left: 20px;
+                        z-index: 1;
+                        color: #fff;
+                        h3 {
+                            font-size: 18px;
+                            margin: 0;
+                        }
+                        p {
+                            font-size: 14px;
+                            margin: 10px 0 20px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.progress-layout {
+    height: 575px;
+    background: #fff url('~/static/market/progress_bg.png') center no-repeat;
+    .progress-inner {
+        width: 1200px;
+        margin: 0 auto;
+        padding-top: 87px;
+        h2 {
+            font-size: 38px;
+            color: #0F092E;
+            text-align: center;
+            margin: 0;
+            font-weight: normal;
+        }
+        .content {
+            margin-top: 90px;
+            width: 100%;
+            height: 188px;
+            background: url('~/static/market/progress.png') center no-repeat;
+            background-size: contain;
+        }
+    }
+}

@@ -1,0 +1,68 @@
+@import "src/style/base/variables";
+@import "src/style/base/mixins";
+.footer-layout {
+    background: #2F313D;
+    .inner {
+        width: 1200px;
+        margin: 0 auto;
+        padding-top: 41px;
+        @include clearfix;
+
+        dl {
+            float: left;
+            margin-right: 60px;
+            dt {
+                font-size: 16px;
+                color: #F1F1F5;
+                line-height: 22px;
+                margin-bottom: 12px;
+            }
+            dd {
+                a {
+                    color: #C5C5C5;
+                    &:hover {
+                        color: #fff;
+                        transition: 0.4s;
+                    }
+                }
+                font-size: 14px;
+                color: #C5C5C5;
+                margin: 0;
+                line-height: 30px;
+            }
+        }
+        .ercode {
+            width: 100px;
+            height: 100px;
+            float: right;
+            background: url('~/static/index2/ercode.png') no-repeat;
+            background-size: contain;
+        }
+    }
+    .copyright {
+        width: 1200px;
+        margin: 0 auto;
+        text-align: center;
+        padding: 12px 0 30px;
+        font-size: 14px;
+        color: #7A7C84;
+        border-top: 1px solid #4F5057;
+        span {
+            display: inline-block;
+            margin-left: 20px;
+            width: 12px;
+            height: 12px;
+            background: url('~/static/beian.png') no-repeat;
+            background-size: contain;
+            position: relative;
+            top: 1px;
+        }
+        a {
+            color: #7A7C84;
+            &:hover {
+                color: #fff;
+                transition: 0.4s;
+            }
+        }
+    }
+}

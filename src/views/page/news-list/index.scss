@@ -1,0 +1,102 @@
+@import "src/style/base/variables";
+@import "src/style/base/mixins";
+
+.banner-layout {
+    height: 484px;
+    background: url('~/static/news/banner_bg.png') center no-repeat;
+    .banner-inner {
+        width: 1200px;
+        margin: 0 auto;
+        color: #fff;
+    }
+}
+
+.news-layout {
+    background: #F8F9FA;
+    .news-inner {
+        width: 1200px;
+        margin: 0 auto;
+        padding: 65px 0;
+        
+        .list {
+            min-height: 500px;
+            @include clearfix;
+        }
+        .btn {
+            text-align: center;
+            width: 92px;
+            height: 36px;
+            line-height: 36px;
+            font-size: 16px;
+            color: #2F2E32;
+            border-radius: 2px;
+            border: 1px solid #ccc;
+            margin: 40px auto 0;
+            background: #fff;
+            cursor: pointer;
+        }
+        .card {
+            margin-right: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0px 0px 11px 0px rgba(177, 177, 177, 0.16);
+            width: 374px;
+            float: left;
+            cursor: pointer;
+            .thumb {
+                width: 374px;
+                height: 250px;
+                overflow: hidden;
+                margin: 0 auto;
+                border-radius: 5px 5px 0 0;
+                img {
+                    display: block;
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            .content {
+                width: 100%;
+                margin: 0 auto;
+                font-size: 14px;
+                color: #8F8F8F;
+                background: #fff;
+                line-height: 24px;
+                border-radius: 0 0 5px 5px;
+                padding: 15px 40px 30px;
+                span {
+                    color: #565656;
+                    font-size: 14px;
+                    display: block;
+                    text-align: left;
+                }
+                h2 {
+                    color: #393939;
+                    font-size: 16px;
+                    margin: 0 0 5px 0;
+                    text-align: left;
+                    font-style: normal;
+                    @include ellipsis;
+                }
+                p {
+                    height: 67px;
+                    color: #565656;
+                    font-size: 14px;
+                    text-align: justify;
+                    margin: 0;
+                    -webkit-line-clamp: 3;
+                    display: -webkit-box;
+                    text-overflow: ellipsis;
+                    overflow: hidden;
+                    -webkit-box-orient: vertical;
+                }
+            }
+        }
+    }
+}
+
+.pagination {
+    text-align: center;
+    .el-pagination {
+        display: inline-block;
+    }
+}

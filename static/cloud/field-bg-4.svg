@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <title>Icon -数据分析72</title>
+  <g id="系统图标">
+    <path class="cls-1" d="M51,51H45V39h6ZM39,51H33V21h6ZM27,51H21V30h6ZM57,9H15a6,6,0,0,0-6,6V57a6,6,0,0,0,6,6H57a6,6,0,0,0,6-6V15A6,6,0,0,0,57,9Z"/>
+  </g>
+</svg>

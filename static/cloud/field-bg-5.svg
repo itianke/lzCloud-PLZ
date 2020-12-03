@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <title>Icon -多库技术72</title>
+  <g id="系统图标">
+    <path class="cls-1" d="M9,18v6H63V18ZM9,39H63V33H9ZM9,54H63V48H9Z"/>
+  </g>
+</svg>

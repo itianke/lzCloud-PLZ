@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="pragram" content="no-cache">
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+        <meta name="renderer" content="webkit">
+        <meta name="format-detection" content="telephone=no">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <meta http-equiv="cache-control" content="no-cache, no-store, must-revalidate">
+        <meta content="工程经营,工程管理,合同管理,财务管理,项目报备,预算管理,施工队管理,项目管理,采购管理,CRM,项目挂靠,工程公司,消防厂家,材料供应商,劳务公司,云管理平台,工程全周期,工程信息化,领筑工程云,领筑采购云,领筑施工云,领筑维保云,领筑APP,供应链金融,工程咨询,领筑云" name="Keywords">
+        <meta name="description" content="领筑云通过互联网、大数据技术，帮助工程公司和工程项目负责人，解决项目管理难、材料采购难、项目找人难、资金引入难、经营合规难、风险控制难等问题等工程全生命周期中存在的问题，推动行业发展和产业升级" />
+        <link rel="shortcut icon" type="image/x-icon" href="/static/favicon.ico">
+        <title>领筑云-领筑采购云-领筑施工云-领筑维保云-工程公司经营管理SaaS系统-消防工程全周期信息化-工程产业互联网服务平台-领筑云</title>
+        <style>
+            .app-page-loader {
+                position: fixed;
+                top: 0;
+                left: 0;
+                z-index: 999;
+                width: 100%;
+                height: 100%;
+                background: #fff;
+            }
+
+            .page-loader-inner {
+                display: inline-block;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                -webkit-transform: translateX(-50%);
+                transform: translateX(-50%);
+            }
+
+            .loader-ball-pulse>div:nth-child(0) {
+                -webkit-animation: loader-scale 0.75s 0s infinite cubic-bezier(.2, .68, .18, 1.08);
+                animation: loader-scale 0.75s 0s infinite cubic-bezier(.2, .68, .18, 1.08);
+            }
+
+            .loader-ball-pulse>div:nth-child(1) {
+                -webkit-animation: loader-scale 0.75s 0.12s infinite cubic-bezier(.2, .68, .18, 1.08);
+                animation: loader-scale 0.75s 0.12s infinite cubic-bezier(.2, .68, .18, 1.08);
+            }
+
+            .loader-ball-pulse>div:nth-child(2) {
+                -webkit-animation: loader-scale 0.75s 0.24s infinite cubic-bezier(.2, .68, .18, 1.08);
+                animation: loader-scale 0.75s 0.24s infinite cubic-bezier(.2, .68, .18, 1.08);
+            }
+
+            .loader-ball-pulse>div:nth-child(3) {
+                -webkit-animation: loader-scale 0.75s 0.36s infinite cubic-bezier(.2, .68, .18, 1.08);
+                animation: loader-scale 0.75s 0.36s infinite cubic-bezier(.2, .68, .18, 1.08);
+            }
+
+            .loader-ball-pulse>div {
+                background-color: #aaa;
+                width: 15px;
+                height: 15px;
+                border-radius: 100%;
+                margin: 2px;
+                -webkit-animation-fill-mode: both;
+                animation-fill-mode: both;
+                display: inline-block;
+            }
+
+            @keyframes loader-scale {
+                30% {
+                    -webkit-transform: scale(0.3);
+                    transform: scale(0.3);
+                }
+                100% {
+                    -webkit-transform: scale(1);
+                    transform: scale(1);
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div id="appPageLoading" class="app-page-loader">
+            <div class="page-loader-inner loader-ball-pulse">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+        <div id="app"></div>
+        <!-- built files will be auto injected -->
+    </body>
+</html>

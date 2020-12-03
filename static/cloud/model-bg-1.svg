@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 128 128">
+  <defs>
+    <style>
+      .cls-1, .cls-12, .cls-8, .cls-9 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: url(#未命名的渐变_5);
+      }
+
+      .cls-3 {
+        fill: url(#未命名的渐变_4);
+      }
+
+      .cls-4 {
+        fill: url(#未命名的渐变_5-2);
+      }
+
+      .cls-5 {
+        fill: url(#未命名的渐变_4-2);
+      }
+
+      .cls-6 {
+        fill: url(#未命名的渐变_5-3);
+      }
+
+      .cls-7 {
+        fill: #1890ff;
+      }
+
+      .cls-12, .cls-8, .cls-9 {
+        stroke-width: 0.5px;
+      }
+
+      .cls-12, .cls-8 {
+        stroke-dasharray: 3.3;
+      }
+
+      .cls-8 {
+        stroke: url(#未命名的渐变_8);
+      }
+
+      .cls-9 {
+        stroke: url(#未命名的渐变_8-2);
+      }
+
+      .cls-10 {
+        fill: #0d1a26;
+      }
+
+      .cls-11 {
+        fill: #697b8c;
+      }
+
+      .cls-12 {
+        stroke: url(#未命名的渐变_8-3);
+      }
+    </style>
+    <linearGradient id="未命名的渐变_5" data-name="未命名的渐变 5" x1="-429.22" y1="365.56" x2="-428.46" y2="365.4" gradientTransform="matrix(34.97, 0, 0, -20.09, 15067.1, 7420.11)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0ee6f6"/>
+      <stop offset="1" stop-color="#2f54eb"/>
+    </linearGradient>
+    <linearGradient id="未命名的渐变_4" data-name="未命名的渐变 4" x1="-428.74" y1="358.96" x2="-429.53" y2="359.13" gradientTransform="matrix(34.97, 0, 0, -16.97, 15067.1, 6158.19)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#284ad7"/>
+      <stop offset="1" stop-color="#1890ff"/>
+    </linearGradient>
+    <linearGradient id="未命名的渐变_5-2" x1="-429.22" y1="365.56" x2="-428.46" y2="365.4" gradientTransform="matrix(34.97, 0, 0, -20.09, 15067.1, 7405.53)" xlink:href="#未命名的渐变_5"/>
+    <linearGradient id="未命名的渐变_4-2" x1="-428.74" y1="358.96" x2="-429.53" y2="359.13" gradientTransform="matrix(34.97, 0, 0, -16.97, 15067.1, 6143.61)" xlink:href="#未命名的渐变_4"/>
+    <linearGradient id="未命名的渐变_5-3" x1="-429.22" y1="365.56" x2="-428.46" y2="365.4" gradientTransform="matrix(34.97, 0, 0, -20.09, 15067.1, 7390.96)" xlink:href="#未命名的渐变_5"/>
+    <linearGradient id="未命名的渐变_8" data-name="未命名的渐变 8" x1="-434.08" y1="371.68" x2="-434.08" y2="370.77" gradientTransform="matrix(56.19, 0, 0, -24.09, 24453, 9012.58)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#1f394e" stop-opacity="0.2"/>
+      <stop offset="1" stop-color="#0d1a26"/>
+    </linearGradient>
+    <linearGradient id="未命名的渐变_8-2" x1="-435.22" y1="375.75" x2="-435.22" y2="374.98" gradientTransform="matrix(65, 0, 0, -28.14, 28353, 10654.32)" xlink:href="#未命名的渐变_8"/>
+    <linearGradient id="未命名的渐变_8-3" x1="-434.08" y1="374.24" x2="-434.08" y2="373.33" gradientTransform="matrix(56.19, 0, 0, -26.4, 24453, 9908.4)" xlink:href="#未命名的渐变_8"/>
+  </defs>
+  <title>Icon -增强质量</title>
+  <g id="前台立体图标">
+    <g id="图标">
+      <g id="分布式金融数据库">
+        <g>
+          <rect id="Rectangle" class="cls-1" x="14" y="14" width="100" height="100"/>
+          <g id="Group-33">
+            <g id="Group-32">
+              <g id="Group">
+                <path id="Combined-Shape" class="cls-2" d="M46.42,77.88V66.55l35-.22V77.92c0,4.7-7.83,8.5-17.49,8.5s-17.49-3.8-17.49-8.5v0Z"/>
+                <path id="Oval-14-Copy-2" class="cls-3" d="M63.91,74.81c9.66,0,17.49-3.8,17.49-8.48s-7.83-8.49-17.49-8.49-17.49,3.8-17.49,8.49S54.25,74.81,63.91,74.81Z"/>
+              </g>
+              <g id="Group-2" data-name="Group">
+                <path id="Combined-Shape-2" data-name="Combined-Shape" class="cls-4" d="M46.42,63.31V52l35-.23V63.34c0,4.7-7.83,8.51-17.49,8.51S46.42,68,46.42,63.34v0Z"/>
+                <path id="Oval-14-Copy-2-2" data-name="Oval-14-Copy-2" class="cls-5" d="M63.91,60.24c9.66,0,17.49-3.8,17.49-8.49s-7.83-8.48-17.49-8.48-17.49,3.8-17.49,8.48S54.25,60.24,63.91,60.24Z"/>
+              </g>
+              <g id="Group-3" data-name="Group">
+                <path id="Combined-Shape-3" data-name="Combined-Shape" class="cls-6" d="M46.42,48.73V37.4l35-.22V48.77c0,4.7-7.83,8.5-17.49,8.5s-17.49-3.8-17.49-8.5v0Z"/>
+                <path id="Oval-14-Copy-2-3" data-name="Oval-14-Copy-2" class="cls-7" d="M63.91,45.66c9.66,0,17.49-3.8,17.49-8.48s-7.83-8.49-17.49-8.49-17.49,3.8-17.49,8.49S54.25,45.66,63.91,45.66Z"/>
+              </g>
+            </g>
+            <path id="Oval-14" class="cls-8" d="M46.52,57.28c-6.75,2.41-11.11,6.23-11.11,10.52C35.41,75.09,48,81,63.5,81s28.09-5.91,28.09-13.2c0-4.52-4.83-8.51-12.21-10.89"/>
+            <path id="Oval-14-2" data-name="Oval-14" class="cls-9" d="M46.34,73.42C37.13,76.14,31,81,31,86.5c0,7.34,10.84,13.48,25.35,15m13.95,0C85,100.08,96,93.9,96,86.5c0-5.36-5.78-10.08-14.54-12.84"/>
+            <circle id="Oval-15" class="cls-10" cx="64.5" cy="86.5" r="1.5"/>
+            <circle id="Oval-15-2" data-name="Oval-15" class="cls-11" cx="56.69" cy="101.7" r="1"/>
+            <circle id="Oval-15-3" data-name="Oval-15" class="cls-11" cx="71.01" cy="101.7" r="1"/>
+            <path id="Oval-14-3" data-name="Oval-14" class="cls-12" d="M63.5,52.4c15.52,0,28.09-5.91,28.09-13.2S79,26,63.5,26,35.41,31.91,35.41,39.2,48,52.4,63.5,52.4Z"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

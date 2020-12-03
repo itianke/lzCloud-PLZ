@@ -1,0 +1,169 @@
+
+.enginner-cloud {
+    color: #fff;
+    .title {
+        margin-top: 80px;
+        margin-bottom: 16px;
+        text-align: center;
+        span {
+            line-height: 1;
+            font-size: 60px;
+            line-height: 90px;
+            display: inline-block;
+        }
+    }
+    .description {
+        text-align: center;
+        color:rgba(255,255,255,0.87);
+        margin-bottom: 48px;
+        span {
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 36px;
+            display: inline-block;
+        }
+    }
+    .option {
+        text-align: center;
+        .el-button {
+            border-radius: 0;
+            width: 144px;
+            height: 48px;
+            color: rgba(70,130,242,1);
+        }
+    }
+    .progress-layout {
+        background: #fff;
+        height: 696px;
+        width: 100%;
+        .progress-title {
+            text-align: center;
+            span {
+                margin-top: 80px;
+                display: inline-block;
+                font-size: 48px;
+                color: rgba(27,89,143,1);
+                line-height: 72px;
+            }
+        }
+        .progress-tips {
+            text-align: center;
+            margin-bottom: 64px;
+            span {
+                display: inline-block;
+                color:rgba(27,89,143,0.87);
+                line-height:36px;
+                font-size: 24px;
+            }
+        }
+        .progress-row {
+            margin: 0 auto;
+            max-width: 1096px;
+            display: flex;
+            justify-content: center;
+            flex-flow: row nowrap;
+            .first {
+                // margin-left: 172px;
+            }
+            .second {
+                margin-left: 112px;
+            }
+            .third {
+                margin-left: 112px;
+            }
+            .progress-cell {
+                // width: 300px;
+                display: flex;
+                flex-flow: row nowrap;
+                justify-content: space-between;
+                align-items: center;
+                .progress-item {
+                    width: 208px;
+                    height: 276px;
+                    text-align: center;
+                    .text {
+                        font-size: 24px;
+                        color: rgba(0,0,0,0.87);
+                        line-height: 36px;
+                        display: inline-block;
+                    }
+                }
+                .progress-bg {
+                    float: left;
+                    box-shadow:0px 2px 4px -1px rgba(0,0,0,0.1),0px 1px 10px 0px rgba(0,0,0,0.06),0px 4px 5px 0px rgba(0,0,0,0.07);
+                    border-radius: 50%;
+                    width: 208px;
+                    height: 208px;
+                    margin-bottom: 32px;
+                }
+                .progress-arrow {
+                    height: 100%;
+                    width: 112px;
+                    display: flex;
+                    justify-content: flex-end;
+                    align-items: center;
+                    font-size: 24px;
+                    color: rgba(0,0,0,0.54);
+                    margin-bottom: 68px;
+                }
+                .bg-1 {
+                    background: url('/static/progress-1.png') 100% no-repeat;
+                }
+                .bg-2 {
+                    background: url('/static/progress-2.png') 100% no-repeat;
+                }
+                .bg-3 {
+                    background: url('/static/progress-3.png') 100% no-repeat;
+                }
+            }   
+        }
+    }
+    .description-layout {
+        height: 646px;
+        background-color: rgba(31,70,166,1);
+        .description-title {
+            text-align: center;
+            span {
+                margin-top: 128px;
+                color: #fff;
+                font-size: 48px;
+                line-height: 72px;
+                display: inline-block;
+            }
+        }
+        .description-tips {
+            text-align: center;
+            span {
+                margin-bottom: 64px;
+                color: rgba(255,255,255,0.87);
+                font-size: 24px;
+                line-height: 36px;
+                display: inline-block;
+            }
+        }
+        .description-label {
+            max-width: 1209px;
+            height: 90px;
+            margin: 0 auto;
+            span {
+                text-align: center;
+                font-size: 20px;
+                display: inline-block;
+                color: rgba(255,255,255,0.87);
+                line-height: 30px;
+            }
+        }
+        .description-option {
+            text-align: center;
+            margin-top: 64px;
+            .el-button {
+                border-radius: 0;
+                width: 144px;
+                height: 48px;
+                color: rgba(70,130,242,1);
+                margin-right: 24px;
+                margin-left: 0;
+            }
+        }
+    }
+}

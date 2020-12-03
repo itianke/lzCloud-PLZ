@@ -1,0 +1,166 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 128 128">
+  <defs>
+    <style>
+      .cls-1, .cls-10, .cls-11, .cls-12 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: #0881f0;
+      }
+
+      .cls-3 {
+        fill: #1cebeb;
+      }
+
+      .cls-4 {
+        fill: #0db4de;
+      }
+
+      .cls-5 {
+        fill: #2f54eb;
+      }
+
+      .cls-6 {
+        fill: #078ff0;
+      }
+
+      .cls-7 {
+        fill: #0774f0;
+      }
+
+      .cls-8 {
+        fill: #17cfe4;
+      }
+
+      .cls-9 {
+        fill: #0dc9de;
+      }
+
+      .cls-10, .cls-11, .cls-12 {
+        stroke-width: 0.5px;
+      }
+
+      .cls-10, .cls-11 {
+        stroke-dasharray: 3.64 1.58;
+      }
+
+      .cls-10 {
+        stroke: url(#未命名的渐变_2);
+      }
+
+      .cls-11 {
+        stroke: url(#未命名的渐变_2-2);
+      }
+
+      .cls-12 {
+        stroke: #314659;
+        stroke-dasharray: 3.64;
+      }
+
+      .cls-13 {
+        fill: #314659;
+      }
+
+      .cls-14 {
+        fill: #697b8c;
+      }
+    </style>
+    <linearGradient id="未命名的渐变_2" data-name="未命名的渐变 2" x1="-161.52" y1="373.7" x2="-161.52" y2="372.16" gradientTransform="matrix(64.61, 0, 0, -25.81, 10499.46, 9671.7)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#1f394e" stop-opacity="0.05"/>
+      <stop offset="1" stop-color="#0d1a26"/>
+    </linearGradient>
+    <linearGradient id="未命名的渐变_2-2" x1="-161.51" y1="364.65" x2="-161.51" y2="363.65" gradientTransform="matrix(64.61, 0, 0, -19.45, 10499.46, 7171.3)" xlink:href="#未命名的渐变_2"/>
+  </defs>
+  <title>Icon -降低成本</title>
+  <g id="前台立体图标">
+    <g id="图标">
+      <g id="区块链">
+        <g>
+          <rect id="Rectangle" class="cls-1" x="14" y="14" width="100" height="100"/>
+          <g id="Group-26">
+            <g id="Group-25-Copy">
+              <g id="Group-4">
+                <polygon id="Rectangle-2" data-name="Rectangle" class="cls-2" points="82.75 43.29 73.5 48.29 73.5 78.12 82.75 72.72 82.75 43.29"/>
+                <polygon id="Rectangle-3" data-name="Rectangle" class="cls-3" points="64.25 43.29 73.49 48.29 73.49 78.12 64.25 72.72 64.25 43.29"/>
+              </g>
+              <g id="Group-4-2" data-name="Group-4">
+                <polygon id="Rectangle-4" data-name="Rectangle" class="cls-3" points="82.42 73.67 82.71 63.16 56.87 48.25 56.93 58.96 82.42 73.67"/>
+                <polygon id="Rectangle-5" data-name="Rectangle" class="cls-4" points="91.67 57.65 82.71 63.16 56.87 48.24 66.18 42.94 91.67 57.65"/>
+                <polygon id="Rectangle-6" data-name="Rectangle" class="cls-5" points="91.65 57.64 82.49 63.06 82.4 73.67 91.61 68.31 91.65 57.64"/>
+              </g>
+              <polygon id="Rectangle-7" data-name="Rectangle" class="cls-6" points="64.25 43.3 73.52 48.52 82.75 43.3 73.5 38.01 64.25 43.3"/>
+              <polygon id="Path-13" class="cls-7" points="73.5 57.83 82.78 52.44 82.78 43.3 73.5 48.55 73.5 57.83"/>
+              <polygon id="Path-16" class="cls-3" points="64.35 43.53 64.35 53.5 73.53 58.92 73.53 48.52 64.35 43.53"/>
+            </g>
+            <g id="Group-25-Copy-2" data-name="Group-25-Copy">
+              <g id="Group-4-3" data-name="Group-4">
+                <polygon id="Rectangle-8" data-name="Rectangle" class="cls-6" points="45.87 43.29 55.12 48.53 55.12 77.63 45.87 72.22 45.87 43.29"/>
+                <polygon id="Rectangle-9" data-name="Rectangle" class="cls-8" points="64.37 43.28 55.12 48.49 55.12 77.63 64.37 72.22 64.37 43.28"/>
+              </g>
+              <g id="Group-4-4" data-name="Group-4">
+                <polygon id="Rectangle-10" data-name="Rectangle" class="cls-8" points="45.71 73.61 45.42 63.1 71.26 48.19 71.2 58.9 45.71 73.61"/>
+                <polygon id="Rectangle-11" data-name="Rectangle" class="cls-4" points="45.73 62.94 71.25 48.18 61.95 42.88 45.85 52.45 45.73 62.94"/>
+                <polygon id="Rectangle-12" data-name="Rectangle" class="cls-3" points="36.48 57.58 45.63 63 45.73 73.61 36.52 68.24 36.48 57.58"/>
+                <polygon id="Path-17" class="cls-9" points="45.85 52.44 55.04 57.56 45.71 63.01 45.85 52.44"/>
+                <polygon id="Path-18" class="cls-9" points="45.84 52.45 36.5 57.59 45.66 62.97 45.84 52.45"/>
+              </g>
+              <polygon id="Rectangle-13" data-name="Rectangle" class="cls-6" points="64.37 43.3 55.1 48.52 45.87 43.3 55.12 38 64.37 43.3"/>
+              <polygon id="Path-13-2" data-name="Path-13" class="cls-8" points="55.12 57.58 45.84 52.44 45.84 43.28 55.12 48.55 55.12 57.58"/>
+              <polygon id="Path-16-2" data-name="Path-16" class="cls-8" points="64.35 43.31 64.35 53.5 55.09 58.92 55.09 48.52 64.35 43.31"/>
+            </g>
+            <g id="Group-25-Copy-3" data-name="Group-25-Copy">
+              <g id="Group-4-5" data-name="Group-4">
+                <polygon id="Rectangle-14" data-name="Rectangle" class="cls-2" points="64.3 53.76 55.06 58.76 55.06 88.59 64.3 83.19 64.3 53.76"/>
+                <polygon id="Rectangle-15" data-name="Rectangle" class="cls-3" points="45.8 53.76 55.05 58.76 55.05 88.59 45.8 83.19 45.8 53.76"/>
+              </g>
+              <g id="Group-4-6" data-name="Group-4">
+                <polygon id="Rectangle-16" data-name="Rectangle" class="cls-3" points="63.97 84.15 64.26 73.64 38.43 58.72 38.49 69.43 63.97 84.15"/>
+                <polygon id="Rectangle-17" data-name="Rectangle" class="cls-9" points="73.22 68.13 64.27 73.63 38.43 58.72 47.73 53.41 73.22 68.13"/>
+                <polygon id="Rectangle-18" data-name="Rectangle" class="cls-2" points="73.21 68.12 64.05 73.53 63.95 84.14 73.17 78.78 73.21 68.12"/>
+              </g>
+              <polygon id="Rectangle-19" data-name="Rectangle" class="cls-6" points="45.8 53.78 55.07 59 64.31 53.78 55.06 48.48 45.8 53.78"/>
+              <polygon id="Path-13-3" data-name="Path-13" class="cls-2" points="55.05 68.3 64.34 62.91 64.34 53.77 55.05 59.02 55.05 68.3"/>
+              <polygon id="Path-16-3" data-name="Path-16" class="cls-3" points="45.9 54 45.9 63.97 55.08 69.4 55.08 59 45.9 54"/>
+            </g>
+            <g id="Group-25-Copy-4" data-name="Group-25-Copy">
+              <g id="Group-4-7" data-name="Group-4">
+                <polygon id="Rectangle-20" data-name="Rectangle" class="cls-8" points="64.25 53.83 73.5 59.06 73.5 88.16 64.25 82.76 64.25 53.83"/>
+                <polygon id="Rectangle-21" data-name="Rectangle" class="cls-5" points="82.75 53.82 73.5 59.02 73.5 88.16 82.75 82.76 82.75 53.82"/>
+              </g>
+              <g id="Group-4-8" data-name="Group-4">
+                <polygon id="Rectangle-22" data-name="Rectangle" class="cls-5" points="64.09 84.14 63.8 73.64 89.64 58.72 89.58 69.43 64.09 84.14"/>
+                <polygon id="Rectangle-23" data-name="Rectangle" class="cls-4" points="64.11 73.47 89.64 58.71 80.33 53.41 64.23 62.98 64.11 73.47"/>
+                <polygon id="Rectangle-24" data-name="Rectangle" class="cls-3" points="54.86 68.11 64.01 73.53 64.11 84.14 54.9 78.78 54.86 68.11"/>
+                <polygon id="Path-17-2" data-name="Path-17" class="cls-9" points="64.23 62.97 73.42 68.09 64.09 73.54 64.23 62.97"/>
+                <polygon id="Path-18-2" data-name="Path-18" class="cls-4" points="64.22 62.99 55.12 68.26 64.05 73.51 64.22 62.99"/>
+              </g>
+              <polygon id="Rectangle-25" data-name="Rectangle" class="cls-6" points="82.75 53.84 73.48 59.06 64.25 53.84 73.5 48.54 82.75 53.84"/>
+              <polygon id="Path-13-4" data-name="Path-13" class="cls-8" points="73.5 68.12 64.22 62.98 64.22 53.81 73.5 59.09 73.5 68.12"/>
+              <polygon id="Path-16-4" data-name="Path-16" class="cls-5" points="82.73 53.85 82.73 64.03 73.47 69.46 73.47 59.06 82.73 53.85"/>
+            </g>
+            <polygon id="Rectangle-Copy-3" class="cls-6" points="55.06 48.53 64.32 53.82 73.56 48.53 64.31 43.24 55.06 48.53"/>
+          </g>
+          <g id="Group-25">
+            <path id="Path-23" class="cls-10" d="M76,28.63,64.88,35.26,53.12,29.11l-21.06,12L53.12,53.51l11.05-6,11.83,7L96.67,41.06Z"/>
+            <path id="Path-23-2" data-name="Path-23" class="cls-11" d="M42.45,78.48,32.06,84.55,53.12,97l11.05-6,11.83,7L96.67,84.55l-10.3-6.07"/>
+            <path id="Path-25" class="cls-12" d="M30,83.67V41.78"/>
+            <path id="Path-25-2" data-name="Path-25" class="cls-12" d="M53,95.75V53.86"/>
+            <path id="Path-25-3" data-name="Path-25" class="cls-12" d="M76,95.75V53.86"/>
+            <path id="Path-25-4" data-name="Path-25" class="cls-12" d="M97.83,82.46V40.57"/>
+            <circle id="Oval-13-Copy-6" class="cls-13" cx="76.5" cy="97.5" r="1.5"/>
+            <circle id="Oval-13-Copy-7" class="cls-13" cx="52.5" cy="97.5" r="1.5"/>
+            <circle id="Oval-13-Copy-6-2" data-name="Oval-13-Copy-6" class="cls-13" cx="76.5" cy="53.5" r="1.5"/>
+            <circle id="Oval-13-Copy-7-2" data-name="Oval-13-Copy-7" class="cls-13" cx="52.5" cy="53.5" r="1.5"/>
+            <circle id="Oval-13-Copy-6-3" data-name="Oval-13-Copy-6" class="cls-14" cx="76.03" cy="29" r="1"/>
+            <circle id="Oval-13-Copy-7-3" data-name="Oval-13-Copy-7" class="cls-14" cx="53.02" cy="29" r="1"/>
+            <circle id="Oval-13-Copy-8" class="cls-14" cx="30.32" cy="41.6" r="1.5"/>
+            <circle id="Oval-13-Copy-8-2" data-name="Oval-13-Copy-8" class="cls-14" cx="98.16" cy="41.6" r="1.5"/>
+            <circle id="Oval-13-Copy-8-3" data-name="Oval-13-Copy-8" class="cls-14" cx="30.32" cy="85.09" r="1.5"/>
+            <circle id="Oval-13-Copy-8-4" data-name="Oval-13-Copy-8" class="cls-14" cx="98.16" cy="85.09" r="1.5"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

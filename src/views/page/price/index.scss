@@ -1,0 +1,79 @@
+@import "src/style/base/variables";
+
+.banner-layout {
+    height: 538px;
+    background: url('~/static/price/banner_bg.png') center no-repeat;
+    .banner-inner {
+        width: 1300px;
+        margin: 0 auto;
+        color: #fff;
+        padding-top: 99px;
+        .box {
+            width: 1300px;
+            height: 347px;
+            margin: 0 auto;
+            background: rgba(255, 255, 255, 0.86);
+            display: flex;
+            padding: 74px 10px 0;
+            .card {
+                flex: 1;
+                padding: 10px 14px 0;
+                height: 200px;
+                border-left: 1px solid #D3D2D2;
+                &:first-child {
+                    border: none;
+                }
+                h3 {
+                    font-size: 20px;
+                    color: #0F092E;
+                    text-align: center;
+                    margin: 0;
+                }
+                p {
+                    font-size: 14px;
+                    margin-top: 14px;
+                    text-align: center;
+                    color: #353434;
+                    line-height: 24px;
+                    height: 100px;
+                }
+                .price {
+                    font-size: 14px;
+                    color: #0F092E;
+                    text-align: center;
+                    span {
+                        font-size: 26px;
+                        color: #2353DC;
+                        &.word {
+                            font-size: 16px;
+                            line-height: 30px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.fun-layout {
+    background: #F8F9FA;
+    .fun-inner {
+        width: 1302px;
+        margin: 0 auto;
+        padding-top: 36px;
+        h2 {
+            font-size: 28px;
+            color: #0F092E;
+            text-align: center;
+            margin: 0;
+            font-weight: normal;
+        }
+        .content {
+            margin-top: 29px;
+            padding-bottom: 100px;
+            img {
+                width: 100%;
+            }
+        }
+    }
+}

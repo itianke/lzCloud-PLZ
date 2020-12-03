@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <title>Icon -操作便捷72</title>
+  <g id="系统图标">
+    <g>
+      <polygon class="cls-1" points="37.5 21 33 21 33 39 48.75 48.45 51 44.76 37.5 36.75 37.5 21"/>
+      <path class="cls-1" d="M36,60A24,24,0,1,1,60,36,24,24,0,0,1,36,60ZM36,6A30,30,0,1,0,66,36,30,30,0,0,0,36,6Z"/>
+    </g>
+  </g>
+</svg>

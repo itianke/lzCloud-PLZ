@@ -1,0 +1,363 @@
+@import "src/style/base/variables";
+$font-color: rgba(255, 255, 255, 0.6);
+$font-color-hover: rgba(255, 255, 255, 1);
+$header-menu-color: #333333;
+$header-menu-height: 80px;
+$user-detail-width: 262px;
+$user-detail-color: rgba(31,70,166,1);
+$hover-bg: #FFCED2;
+
+.header-layout {
+    width: 100%;
+    background: #fff;
+}
+
+.header-bar {
+    width: 1200px;
+    margin: 0 auto;
+    height: $header-menu-height;
+    color: #333;
+    font-size: $font-size-small;
+    box-sizing: border-box;
+    border-bottom: 1px solid rgba(255,255,255,.16);
+    position: relative;
+    z-index: 9;
+}
+
+.menu-ul {
+    height: $header-menu-height;
+    line-height: $header-menu-height;
+    list-style-type: none;
+    li {
+        float: left;
+    }
+}
+
+.left-menu {
+    float: left;
+    li {
+        font-size: 16px;
+        margin-right: 50px;
+        a {
+            color: #333;
+            &:hover {
+                color: #3867EA;
+                transition: 0.4s;
+            }
+            &.active {
+                color: #3867EA;
+            }
+        }
+    }
+    li:first-child {
+        font-size: 16px;
+        width: 107px;
+        display: inline-block;
+        text-align: center;
+    }
+    .handle-btns {
+        position: relative;
+        a {
+            padding: 2px 2px;
+        }
+        .text-normal {
+            height: 80px;
+            display: inline-block;
+            text-align: center;
+            margin-right: 32px;
+            font-size: $font-size-title;
+            color: rgba(255,255,255, .6);
+            &:hover {
+                color: rgba(255,255,255, 1);
+                border-bottom: 4px solid #fff;
+            }
+        }
+    }
+}
+.menu-logo {
+    width: 56px;
+    height: 28px;
+    margin-top: 20px;
+}
+.is-active {
+    &:hover {
+        background: $user-detail-color;
+    }
+}
+
+.is-active-1 {
+    &:hover {
+        background: rgba(249,253,254,1);
+    }
+}
+
+.right-menu {
+    float: right;
+    color: #333;
+    span {
+        box-sizing: border-box;
+    }
+    .msg-item {
+        display: inline-flex;
+        align-items: center;
+        flex-flow: row nowrap;
+        cursor: pointer;
+        height: 100%;
+        transition: all .3s;
+        margin-right: 15px;
+        clear: both;
+        font-size: 14px;
+        &:hover {
+            .msg-item-icon {
+                color: #2253DD;
+            }
+            a {
+                color: #2253DD;
+                transition: 0.6s;
+            }
+        }
+        .msg-item-icon {
+            display: flex;
+            align-items: center;
+            margin-right: 6px;
+            img {
+                width: 16px;
+                height: 16px;
+            }
+        }
+        .msg-item-label {
+            margin-right: 2px;
+            a {
+                position: relative;
+            }
+            span {
+                display: block;
+                width: 5px;
+                height: 5px;
+                background: #f00;
+                position: absolute;
+                border-radius: 50%;
+                right: -5px;
+                top: 0;
+            }
+        }
+        .el-msg-tag {
+            text-align: center;
+            line-height: 15px;
+            display: inline-block;
+            min-width: 20px;
+            width: 20px;
+            height: 15px;
+            background-color: #E84133;
+            color: #FFFFFF;
+            padding: 0 2px;
+            border-radius: 2px;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+    }
+    .split-line {
+        width: 1px;
+        height: 16px;
+        margin-top: 31px;
+        border-right: 1px solid #ccc;
+    }
+    .line-hidden {
+        opacity: 0.6;
+    }
+    .hover {
+        &:hover {
+            height: 80px;
+            border-bottom: 4px solid #fff;
+        }
+    }
+    .sub-user-item {
+        // padding: 0 116px 0 20px;
+        padding-left: 15px;
+        a:hover {
+            color: #2253DD;
+            transition: 0.6s;
+        }
+    }
+    .user-item {
+        cursor: pointer;
+        position: relative;
+        max-width: 200px;
+        min-width: 80px;
+        // min-width: 200px;
+        text-overflow: ellipsis;
+        // &:hover {
+            
+        // }
+        .msg-item-icon {
+            .svg-icon {
+                margin-bottom: 3px;
+            }
+        }
+        &:after{
+            transition: .3s;
+        }
+        .handle-btns:first-child {
+            margin-right: 20px;
+        }
+        .text-normal {
+            font-size: $font-size-base;
+            color: #7e7e7e;
+            &:hover {
+                color: #2253DD;
+            }
+        }
+        .registry-btn {
+            position: relative;
+            top: -3px;
+            margin-left: 12px;
+            width: 64px;
+            height: 30px;
+            border: solid 1px #979797;
+            display: inline-flex;
+            vertical-align: middle;
+            justify-content: center;
+            align-items: center;
+            &:hover {
+                color: #2253DD;
+                border-color: #2253DD;
+            }
+        }
+        .el-user-tag {
+            display: inline-block;
+            width: 36px;
+            height: 16px;
+            line-height: 14px;
+            border: 1px solid #fff;
+            background-color: #fff;
+            color: $color-main;
+            border-radius: 10px;
+            margin-left: 10px;
+            text-align: center;
+        }
+        .user-detail {
+            font-size: $font-size-small;
+            text-align: center;
+            width: $user-detail-width;
+            height: 164px;
+            z-index: 1999;
+            padding: 0;
+            position: absolute;
+            right: 0;
+            top: 80px;
+            background-color: #fff;
+            color: #090909;
+            border-top: 2px solid#2253DD;
+            &:before{
+                content: "";
+                display: block;
+                clear: both;
+                border-left: 10px solid transparent;
+                border-right: 10px solid transparent;
+                border-bottom: 14px solid #2253DD;
+                position: absolute;
+                right: 20px;
+                top: -16px;
+            }
+            .nav {
+                line-height: 1.5;
+                padding-top: 24px;
+                font-size: 14px;
+                &:hover {
+                    color: #2253DD;
+                }
+            }
+            .controller {
+                padding: 16px 16px 24px 16px;
+                .console {
+                    display: block;
+                    border: 1px solid #979797;
+                    height: 40px;
+                    line-height: 40px;
+                    width: 100%;
+                    font-size: $font-size-base;
+                    &:hover {
+                        color: #2253DD;
+                        border-color: #2253DD;
+                    }
+                }
+            }
+            .btn-group {
+                line-height: 1.5;
+                padding-right: 20px;
+                float: right;
+                display: flex;
+                align-items: center;
+                a {
+                    margin-left: 9px;
+                    &:hover {
+                        color: #2253DD;
+                    }
+                }
+            }
+        }
+    }
+}
+.account-fade-enter-active {
+    transition: all .3s ease-in;
+}
+.account-fade-leave-active {
+    transition: all .3s ease-out
+}
+.account-fade-enter, .account-fade-leave-to {
+    transform: translateY(0px);
+    opacity: 0;
+}
+.svg-icon {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    color: inherit;
+    vertical-align: middle;
+    fill: none;
+    stroke: currentColor;
+}
+
+.svg-fill {
+    fill: currentColor;
+    stroke: none;
+}
+
+.svg-up {
+    /* default */
+    transform: rotate(0deg);
+}
+
+.svg-right {
+    transform: rotate(90deg);
+}
+
+.svg-down {
+    transform: rotate(180deg);
+}
+
+.svg-left {
+    transform: rotate(-90deg);
+}
+
+.news-list {
+    width: 150px;
+    height: 64px;
+    background: #fff;
+    padding-left: 28px;
+    border-top: 2px solid #2253DD;
+    line-height: 64px;
+    margin-left: -20px;
+    position: relative;
+    &:before{
+        content: "";
+        display: block;
+        clear: both;
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+        border-bottom: 14px solid #2253DD;
+        position: absolute;
+        left: 35px;
+        top: -16px;
+    }
+}

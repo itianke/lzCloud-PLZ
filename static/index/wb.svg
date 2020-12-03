@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 128 128">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #2e5fab;
+      }
+
+      .cls-2 {
+        fill: #3da8e0;
+      }
+
+      .cls-3 {
+        fill: url(#未命名的渐变_10);
+      }
+    </style>
+    <linearGradient id="未命名的渐变_10" data-name="未命名的渐变 10" x1="69.46" y1="41.03" x2="51.24" y2="72.6" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2e5fab"/>
+      <stop offset="0.43" stop-color="#2d5daa"/>
+      <stop offset="0.64" stop-color="#2a55a5"/>
+      <stop offset="0.8" stop-color="#25489c"/>
+      <stop offset="0.93" stop-color="#1d3690"/>
+      <stop offset="1" stop-color="#182987"/>
+    </linearGradient>
+  </defs>
+  <title>维保-64</title>
+  <g id="其他">
+    <g>
+      <g>
+        <polygon class="cls-1" points="6 32.41 24.49 32.41 40.8 77.94 30.94 95.59 6 32.41"/>
+        <path class="cls-1" d="M45.26,32.4l8.28,24.29L61.29,32.4h42.88s14.16.89,16.31,14S114,64,114,64s8.1.4,8,13.94-12.9,16.18-12.9,16.18l-30.36,0,.38-15,24.5-.26L103.53,71H79.25l.13-14.67,22.5,0V47.08L72.5,47.2l-19,48.4L34.44,49.48Z"/>
+      </g>
+      <g>
+        <polygon class="cls-2" points="6 32.41 24.49 32.41 40.8 77.94 30.94 95.59 6 32.41"/>
+        <polygon class="cls-2" points="53.56 56.6 53.54 56.69 45.26 32.41 34.44 49.48 53.54 95.59 60.46 77.93 53.56 56.6"/>
+      </g>
+      <polygon class="cls-3" points="53.54 56.69 60.46 77.93 72.5 47.2 60.24 35.71 53.54 56.69"/>
+    </g>
+  </g>
+</svg>

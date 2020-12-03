@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <title>Icon -全功能模块72</title>
+  <g id="系统图标">
+    <path class="cls-1" d="M45,27h6V21H63V15H51V9H45ZM63,39V33H33v6ZM21,27v6H9v6H21v6h6V27ZM39,63V57H63V51H39V45H33V63ZM9,15v6H39V15ZM9,51v6H27V51Z"/>
+  </g>
+</svg>
